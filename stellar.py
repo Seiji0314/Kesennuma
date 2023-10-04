@@ -27,14 +27,21 @@ def star_plot(f0, mag_lim, season):
     ax.set_rasterized(True)
     ax.axis("off")
 
-    plt.savefig("/Users/seiji/Desktop/astro/01_asaca/plot/fig/north_"+season+"_wh_"+str(f0)+"_"+str(mag_lim)+".png", bbox_inches="tight", pad_inches=0.05, dpi=300)
+    plt.savefig("/north_"+season+"_wh_"+str(f0)+"_"+str(mag_lim)+".png", bbox_inches="tight", pad_inches=0.05, dpi=300)
     plt.close()
 
-st = pd.read_csv("/Users/seiji/Desktop/astro/01_asaca/plot/stellar.csv", names=("ra", "dec", "mag"))
+st = pd.read_csv("stellar.csv", names=("ra", "dec", "mag"))
 
 ra = {'sp':[-4.0,-2.5], 'su':[-5.7,-4.0], 'fa':[-6.2,-5.2], 'wi':[-2.5,-1.0]}
 dec = {'sp':[-55,70], 'su':[-55,70], 'fa':[-55,70], 'wi':[-55,70]}
 
 # star_plot(f0(flux_const), mag_lim, season('sp','su','fa','wi'))
+# input your directry 
+YOUR_DIRECTRY = 
+
 # input your parameter
-star_plot(15, 4, 'fa') 
+flux_const = 
+magnitude_limit = 
+season = 
+#'sp','su','fa','wi'
+star_plot(flux_const, magnitude_limit, season) 
