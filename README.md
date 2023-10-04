@@ -8,9 +8,9 @@
 
   コマンドラインからなら
 
-  '''
+  ```
   git clone https://github.com/Seiji0314/Kesennuma.git
-  '''
+  ```
 
   手でやるなら画面右上のこちらからダウンロード
 
@@ -22,21 +22,21 @@
 
   season：どの季節を表示するか
   
-  '''
-  # input your parameter
+  ```
+  #input your parameter
   
   flux_const = 15 
   
   magnitude_limit = 4
   
   season = 'fa'　#　'sp','su','fa','wi'
-  '''
+  ```
   
 3. コードを実行する
    
-  '''
+  ```
   python stellar.py
-  '''
+  ```
 
   画像が "fig/north_"+season+"_wh_"+str(f0)+"_"+str(mag_lim)+".png" で出力されます。
 
