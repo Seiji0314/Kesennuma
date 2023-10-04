@@ -5,5 +5,28 @@
 
 ### 使い方
 1. コードをダウンロードする
-2. stellar.py のパラメータを確認・編集する
-3. python stellar.py
+  コマンドラインからなら
+  '''
+  git clone https://github.com/Seiji0314/Kesennuma.git
+  '''
+  手でやるなら画面右上のこちらからダウンロード
+
+2. stellar.py のパラメータを確認・編集する 
+  flux_const：プロットの大きさ
+  magnitude_limit：何等星まで表示するか
+  season：どの季節を表示するか
+  '''
+  # input your parameter
+  flux_const = 15 
+  magnitude_limit = 4
+  season = 'fa'　#　'sp','su','fa','wi'
+  '''
+  
+3. コードを実行する
+  '''
+  python stellar.py
+  '''
+
+  画像が "fig/north_"+season+"_wh_"+str(f0)+"_"+str(mag_lim)+".png" で出力されます。
+
+
