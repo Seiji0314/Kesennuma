@@ -12,7 +12,9 @@
   git clone https://github.com/Seiji0314/Kesennuma.git
   ```
 
-  手でやるなら画面右上のこちらからダウンロード
+  手でやるなら画面中央上部のこちらからダウンロード
+
+  ![Download.zip](fig/ss.png) 
 
 2. stellar.py のパラメータを確認・編集する
 
